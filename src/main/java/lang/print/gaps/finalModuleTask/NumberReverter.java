@@ -10,6 +10,6 @@ public class NumberReverter {
         int b = number / 10 - a * 10;
         int c = number - a * 100 - b * 10;
 
-        System.out.println(a + "" + b + "" + c);
+        System.out.println(a + "\n" + b + "\n" + c);
     }
 }
